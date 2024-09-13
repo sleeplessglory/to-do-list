@@ -17,14 +17,15 @@ function Form(){
         <>
             <div className="list">
                 <h1>To-do list</h1>
-                <div className="elements">
+                <div className="elements" data-test="form">
                     <input className="list-input" 
                            type="text" 
                            placeholder="Enter a task" 
                            value={newTask} 
                            onChange={handleInputChange}
-                           spellCheck={false} />
-                    <button className="list-button" onClick={addTask}>Add</button>
+                           spellCheck={false}
+                           data-test="new" />
+                    <button className="list-button" onClick={addTask} data-test="add">Add</button>
                 </div>
                 <ToDoList items={tasks} setItems={setTasks} />
             </div>

@@ -28,17 +28,17 @@ function ToDoList(props){
             <ol>
                 {props.items.map((task, index) => 
                 <li key={index}>
-                    <span className="text">{task}</span>
+                    <span className="text" data-test="task">{task}</span>
                     <button className="delete-button"
-                            onClick={() => deleteTask(index)}>
+                            onClick={() => deleteTask(index)} data-test="delete">
                         Delete
                     </button>
                     <button className="move-button"
-                            onClick={() => moveTaskUp(index)}>
+                            onClick={() => moveTaskUp(index)} data-test="up">
                         ☝🏻
                     </button>
                     <button className="move-button"
-                            onClick={() => moveTaskDown(index)}>
+                            onClick={() => moveTaskDown(index)} data-test="down">
                         👇🏻
                     </button>
                 </li>)}
