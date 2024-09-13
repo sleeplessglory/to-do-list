@@ -1,0 +1,142 @@
+body {
+  background-color: hsl(235, 88%, 10%);
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+
+ol {
+  padding: 0;
+}
+
+li {
+  padding: 0.6em;
+  background-color: hsl(0, 0%, 97%);
+  margin-bottom: 0.5em;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 0.2em;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.delete-button, .move-button {
+  padding: 8px 12px;
+  font-size: 1.4rem;
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .elements, ol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .list-button {
+    width: 13.7em;
+  }
+  li {
+    width: 20em;
+    padding: 0.3em;
+    margin-top: 12px;
+  }
+}
+.list {
+  text-align: center;
+  margin-top: 4rem;
+}
+
+input[type=text] {
+  width: 19rem;
+  margin: 0.7rem 2rem 0;
+  font-size: 1.6rem;
+  padding: 10px;
+  border: 2px solid hsla(0, 0%, 80%, 0.5);
+  border-radius: 5px;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+.list-button {
+  border: none;
+  margin-top: 0.7rem;
+  background-color: hsl(125, 83%, 25%);
+}
+
+.list-button:hover {
+  background-color: hsl(125, 83%, 40%);
+}
+
+.text {
+  /*flex: 1; is a shortcut for the 3 properties below*/
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  /*means that the text will take up as much space as 
+  possible and grow and shrink with the size of the browser, 
+  so, the buttons're pushed to the right corner*/
+}
+
+.delete-button {
+  background-color: hsl(0, 78%, 30%);
+}
+
+.delete-button:hover {
+  background-color: hsl(0, 78%, 45%);
+}
+
+.move-button {
+  background-color: hsl(207, 83%, 40%);
+}
+
+.move-button:hover {
+  background-color: hsl(207, 83%, 55%);
+}
+
+@font-face {
+  src: url(../assets/circular-std-2.ttf);
+  font-family: "Circular Std 2";
+}
+h1, button, span {
+  font-family: "Circular Std 2", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+input[type=text] {
+  font-family: "Circular Std 2", Arial, sans-serif;
+  font-size: 1.6rem;
+  color: hsla(0, 0%, 0%, 0.5);
+}
+
+button {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  input[type=text], .list-button {
+    font-size: 1.5em;
+  }
+  li {
+    font-size: 1em;
+  }
+  .delete-button, .move-button {
+    font-size: 0.7rem;
+  }
+}/*# sourceMappingURL=style.css.map */

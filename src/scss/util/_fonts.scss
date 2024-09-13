@@ -1,0 +1,39 @@
+@font-face {
+    src: url(../assets/circular-std-2.ttf);
+    font-family: 'Circular Std 2';
+}
+h1, button, span {
+    font-family: 'Circular Std 2', Arial, sans-serif;
+}
+h1 {
+    font-size: 4rem;
+    color: rgb(255, 255, 255);
+}
+input[type="text"] {
+    font-family: 'Circular Std 2', Arial, sans-serif;
+    font-size: 1.6rem;
+    color: hsla(0, 0%, 0%, 0.5);
+}
+button { //all buttons
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+}
+li {
+    font-size: 2rem;
+    font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    input[type="text"], .list-button {
+        font-size: 1.5em;
+    }
+    li {
+        font-size: 1em;
+    }
+    .delete-button, .move-button {
+        font-size: 0.7rem;
+    }
+}

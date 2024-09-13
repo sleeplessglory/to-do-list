@@ -15,11 +15,16 @@ function Form(){
     }
     return(
         <>
-            <div className="to-do-list">
+            <div className="list">
                 <h1>To-do list</h1>
-                <div>
-                    <input type="text" placeholder="Enter a task" value={newTask} onChange={handleInputChange} />
-                    <button className="add-button" onClick={addTask}>Add</button>
+                <div className="elements">
+                    <input className="list-input" 
+                           type="text" 
+                           placeholder="Enter a task" 
+                           value={newTask} 
+                           onChange={handleInputChange}
+                           spellCheck={false} />
+                    <button className="list-button" onClick={addTask}>Add</button>
                 </div>
                 <ToDoList items={tasks} setItems={setTasks} />
             </div>

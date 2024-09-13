@@ -1,0 +1,21 @@
+.text {
+    /*flex: 1; is a shortcut for the 3 properties below*/
+    flex-grow: 1; 
+    flex-shrink: 1;
+    flex-basis: 0%;
+    /*means that the text will take up as much space as 
+    possible and grow and shrink with the size of the browser, 
+    so, the buttons're pushed to the right corner*/
+}
+.delete-button {
+    background-color: hsl(0, 78%, 30%);
+}
+.delete-button:hover {
+    background-color: hsl(0, 78%, 45%);
+}
+.move-button {
+    background-color: hsl(207, 83%, 40%);
+}
+.move-button:hover {
+    background-color: hsl(207, 83%, 55%);
+}
