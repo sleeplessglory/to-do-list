@@ -1,8 +1,7 @@
-import ToDoList from './ToDoList.jsx';
+import Form from './Form.jsx';
 function App() {
     return(
-        <ToDoList />
+        <Form />
     );
 }
-
 export default App;
