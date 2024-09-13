@@ -36,4 +36,4 @@ The application has been documented for developers with **JSDoc**. Available in 
 ## User documentation
 Finally, a documentation for users has been created with **MS Word**. [User documentation.pdf](https://github.com/user-attachments/files/16999731/User.documentation.pdf) version is available.
 
-![User](https://github.com/user-attachments/assets/4763f9a3-e0bf-4b1b-a6d2-0fd516966c95)
+![User](https://github.com/user-attachments/assets/5565582d-ed9e-49bd-b927-c2cdc5a97d63)
