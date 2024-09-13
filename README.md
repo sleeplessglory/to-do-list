@@ -21,7 +21,7 @@ An "overflow" property is applied too.
 ![Mobile](https://github.com/user-attachments/assets/4df9917d-6f98-416a-991d-0c3d6a6b8d9d)
 # Cypress tests
 ## E2E testing
-Here's a video of an E2E type tests with **Cypress**.
+Here's a video of an E2E type of tests with **Cypress**.
 
 https://github.com/user-attachments/assets/86e1ecbb-a8a2-4583-b5bf-cf9ec9fb7808
 ## Component testing
