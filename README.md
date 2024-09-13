@@ -7,7 +7,7 @@ Users type any task and add it to the list of tasks. If an empty string has been
 When users want to delete a task, the application launches a filter() method which excludes the selected task and updates the current list. When users move tasks up, the application
 desctructures the current array of tasks, extracts the current task and the previous one, swaps them and updates the current array. If the 1st task is chosen, the application ignores
 moving it up. When users move tasks down, the application destructures the current array of tasks, extracts the current task and the next one, swaps them and updates the current array
-of tasks.
+of tasks. The last task cannot be moved down (ignored by the application).
 # Application styling
 ## Desktop version
 The layout for a desktop version of the application.
