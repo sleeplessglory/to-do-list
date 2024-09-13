@@ -16,7 +16,7 @@ Users can always scroll to the left and right, if their task is way too long for
 ![Desktop](https://github.com/user-attachments/assets/b7598375-ad86-4544-a77c-9af0e23b68cb)
 ## Mobile verison
 The layout for a mobile version changes and stores all the application elements in a single column (if the viewport width is less than 700px).
-An overflow property is applied too.
+An "overflow" property is applied too.
 
 ![Mobile](https://github.com/user-attachments/assets/4df9917d-6f98-416a-991d-0c3d6a6b8d9d)
 # Cypress tests
